@@ -5,7 +5,7 @@ disqus_shortname:
 search:           true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
-url:              http://192.168.1.102:4000
+url:              /blog
 
 # Owner/author information
 owner:
@@ -49,7 +49,7 @@ pygments:    true
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:year/:month/:day/:title
+permalink:   date
 
 kramdown:
   auto_ids: true
