@@ -4,6 +4,10 @@ permalink: /apropos/
 title: NS Labs, c'est quoi ?
 tags: [Natural Solutions]
 modified: 2014-07-09
+image:
+  feature: apropos.jpg
+  credit: Isabelle Mailhan
+  creditlink: http://www.isabellemailhan.com/
 ---
 
 Natural Solutions est un éditeur de logiciels dédiés à la nature et à la
