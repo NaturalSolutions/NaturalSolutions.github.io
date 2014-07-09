@@ -1,4 +1,5 @@
-o  rédiger le /apropos/
+x  rédiger le /apropos/
 o  configuration disqus
 o  configuration google analytics
-
+x  URL relative pour les assets
+o  mettre d'équerre les favicons (voir à la fin de _includes/head.html)
