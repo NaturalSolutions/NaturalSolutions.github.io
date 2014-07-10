@@ -8,6 +8,7 @@ author:
     github: gbassiere
 tags: [javascript, jquery]
 categories: webdev
+comments: true
 ---
 
 
