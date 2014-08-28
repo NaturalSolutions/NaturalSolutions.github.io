@@ -26,7 +26,18 @@
       <footer class="entry-meta">
         {% if page.author.name %}
         <img src="{{ site.url.prefix }}/images/{{ page.author.avatar }}" alt="{{ page.author.name }} photo" class="author-photo">
-        <span class="author vcard">Par <span class="fn">{{ page.author.name }}</span></span>
+        <span class="author vcard">
+            Par <span class="fn">{{ page.author.name }}</span>
+            {% if page.author.twitter %}<a href="http://twitter.com/{{ page.author.twitter }}" title="{{ page.author.name}} sur Twitter" target="_blank"><i class="icon-twitter icon-1x"></i></a>{% endif %}
+            {% if page.author.facebook %}<a href="http://facebook.com/{{ page.author.facebook }}" title="{{ page.author.name}} sur Facebook" target="_blank"><i class="icon-facebook icon-1x"></i></a>{% endif %}
+            {% if page.author.google_plus %}<a href="{{ page.author.google_plus }}" title="{{ page.author.name}} sur Google+" target="_blank"><i class="icon-google-plus icon-1x"></i></a>{% endif %}
+            {% if page.author.linkedin %}<a href="http://www.linkedin.com/company/{{ page.author.linkedin }}" title="{{ page.author.name}} sur LinkedIn" target="_blank"><i class="icon-linkedin icon-1x"></i></a>{% endif %}
+            {% if page.author.stackexchange %}<a href="{{ page.author.stackexchange }}" title="{{ page.author.name}} sur StackExchange" target="_blank"><i class="icon-stackexchange icon-1x"></i></a>{% endif %}
+            {% if page.author.instagram %}<a href="http://instagram.com/{{ page.author.instagram }}" title="{{ page.author.name}} sur Instagram" target="_blank"><i class="icon-instagram icon-1x"></i></a>{% endif %}
+            {% if page.author.flickr %}<a href="http://www.flickr.com/photos/{{ page.author.flickr }}" title="{{ page.author.name}} sur Flickr" target="_blank"><i class="icon-flickr icon-1x"></i></a>{% endif %}
+            {% if page.author.github %}<a href="http://github.com/{{ page.author.github }}" title="{{ page.author.name}} sur Github" target="_blank"><i class="icon-github icon-1x"></i></a>{% endif %}
+            {% if page.author.tumblr %}<a href="http://{{ page.author.tumblr }}.tumblr.com" title="{{ page.author.name}} sur Tumblr" target="_blank"><i class="icon-tumblr icon-1x"></i></a>{% endif %}
+        </span>
         {% else %}
         <img src="{{ site.url.prefix }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
         <span class="author vcard">Par <span class="fn"><a href="{{ site.url.prefix }}/apropos/" title="À propos de {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
