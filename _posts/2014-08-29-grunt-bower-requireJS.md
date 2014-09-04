@@ -276,7 +276,9 @@ Pour configurer l'optimiseur on doit créer un fichier de configuration JS, par 
 Dans notre cas les fichiers concaténés donneront le fichier `formbuilder.min.js`.
 Vous pouvez également inclure des fichiers d'autres bibliothèques : ici on inclut RequireJS et Backbone.
 
-    node r.js -0 build.js
+Pour lancer l'optimiseur exécuter la commande suivante : 
+
+    `node r.js -0 build.js`
 
 
 ## Grunt + Bower + RequireJS !!
