@@ -15,7 +15,7 @@ Grunt, Bower et RequireJS
 -------------------------
 
 
-Lors du développement du projet [FormBuilder], j'ai cherché à rendre le projet modulaire et surtout facile à maintenir.
+Lors du développement du projet [FormBuilder](https://github.com/NaturalSolutions/NS.UI.FormBuilder), j'ai cherché à rendre le projet modulaire et surtout facile à maintenir.
 Cet article a pour but de présenter les bibliothèques que j'ai utilisées et leur mise en place.
 
 ## Pré-requis
